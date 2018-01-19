@@ -1,0 +1,20 @@
+@import "./node_modules/font-awesome/scss/font-awesome.scss";
+@import "./node_modules/bulma/sass/utilities/_all.sass";
+
+$primary: dodgerblue;
+$primary-invert: whtie;
+$danger: rgb(227, 25, 25);
+
+@import './node_modules/bulma/bulma.sass';
+
+html, body, #app, .app {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-content{
+  height: calc(100% - 3.25rem);
+  .page-content{
+    overflow: auto;
+  }
+}
